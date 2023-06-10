@@ -1,4 +1,5 @@
 import 'package:get/get.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import '../firebase_ref/references.dart';
 
 class FirebaseStorageService extends GetxService {
@@ -16,4 +17,9 @@ class FirebaseStorageService extends GetxService {
       return null;
     }
   }
+
+
+
+
+
 }
